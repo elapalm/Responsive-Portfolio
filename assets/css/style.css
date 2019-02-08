@@ -90,31 +90,32 @@ p {
     float: left;
 }
 
+img {
+    margin-left: 15px;
+    float: left;
+}
+
+/* portfolio */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h5 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    z-index: 1;
+}
 .portfolioPhoto {
     width: 200px;
     margin: 20px 0 25px;
     float: left;
     position: relative;
-    overflow: auto;
 }
 
-.work:nth-child(even) {
-    margin-right: 40px;
-}
-
-.photoLabel .portfolioPhoto {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    line-height: 30px;
-    font-weight: 300;
-    margin-bottom: 0;
-    width: 200px;
-    margin-left: -195px;
-    position: absolute;
-}
-
-
+/* footer */
 .footer {
     background-color: #666666;
     height: 50px;
