@@ -38,6 +38,21 @@ a {
     width: 960px;
     margin-left: 190px;
 }
+/* media query adjustments */
+
+@media only screen and (max-width: 980px) {
+    #contentArea {
+        width: 960px;
+    }
+
+@media only screen and (max-width: 768px) {
+    #contentArea {
+        
+    }
+
+@media only screen and (max-width: 640px) {
+    #contentArea header }
+        position: static;
 
 section {
     font-family: "Arial", "Helvetica Neue", Arial, Helvetica, sans-serif;
