@@ -38,21 +38,7 @@ a {
     width: 960px;
     margin-left: 190px;
 }
-/* media query adjustments */
 
-@media only screen and (max-width: 980px) {
-    #contentArea {
-        width: 960px;
-    }
-
-@media only screen and (max-width: 768px) {
-    #contentArea {
-        
-    }
-
-@media only screen and (max-width: 640px) {
-    #contentArea header }
-        position: static;
 
 section {
     font-family: "Arial", "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -146,3 +132,34 @@ h5 {
     border-top: 8px solid #4aaaa5;
     clear: both;
 }
+
+/* media query adjustments */
+
+@media only screen and (max-width: 980px) {
+    #contentArea {
+        width: 960px;
+    }
+/* medium screen */
+@media only screen and (max-width: 768px) {
+    #contentArea {
+        width: 760px;
+       }
+    header {
+        width: 100%;
+        height: 100px;
+    }
+
+       /* small screen */
+@media only screen and (max-width: 640px) {
+    #contentArea {
+        width: 640px;
+    }
+    header {
+        width: 100%;
+        height: 50px;
+        position: static;
+    }
+    footer {
+        width: 100%;
+        height: 75px;
+    }
